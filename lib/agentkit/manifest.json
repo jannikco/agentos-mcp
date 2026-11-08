@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-agentos",
+      "description": "Connect AI agents to agentOS using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-agentos/SKILL.md": "11903adbe5661c296a545bb3a26e732187cb1067697c649c357cadf9aee7610a"
+  }
+}
