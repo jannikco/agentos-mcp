@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "c55cb694ec43b55725ffd69b7ddaa731a119986e141036ba3fc95ac5a61954eb",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://live-api.letmc.com/swagger/docs/v4-advertising",
+    "https://live-api.letmc.com/swagger/docs/v4-applications",
+    "https://live-api.letmc.com/swagger/docs/v4-appointments",
+    "https://live-api.letmc.com/swagger/docs/v4-concierge",
+    "https://live-api.letmc.com/swagger/docs/v4-contacts",
+    "https://live-api.letmc.com/swagger/docs/v4-deposits",
+    "https://live-api.letmc.com/swagger/docs/v4-documents",
+    "https://live-api.letmc.com/swagger/docs/v4-inspections",
+    "https://live-api.letmc.com/swagger/docs/v4-maintenance",
+    "https://live-api.letmc.com/swagger/docs/v4-notes",
+    "https://live-api.letmc.com/swagger/docs/v4-reporting",
+    "https://live-api.letmc.com/swagger/docs/v4-referencing",
+    "https://live-api.letmc.com/swagger/docs/v4-valuations",
+    "https://live-api.letmc.com/swagger/docs/v4-propertymanagement",
+    "https://live-api.letmc.com/swagger/docs/v3-diary",
+    "https://live-api.letmc.com/swagger/docs/v3-maintenance",
+    "https://live-api.letmc.com/swagger/docs/v3-systemevents",
+    "https://live-api.letmc.com/swagger/docs/v3-sales"
+  ],
+  "id": "agentos-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "agentOS MCP setup and connection checker",
+  "description": "Generate agentOS MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "agentos",
+  "appName": "agentOS",
+  "providerDocs": "https://live-api.letmc.com/swagger/docs/v4-advertising",
+  "providerWebsite": "https://agentos.com/",
+  "authentication": {
+    "type": "api_key_header",
+    "requiredCredentialFields": [
+      "api_key"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://live-api.letmc.com/content/apidocumentation/managing-api-keys.html",
+    "tenantRequired": false,
+    "accountParameterNames": [
+      "short_name"
+    ]
+  },
+  "attributionSlug": "github-agentos-mcp",
+  "factory": "leadadapter-pipmcp",
+  "generatorVersion": 1
+}
